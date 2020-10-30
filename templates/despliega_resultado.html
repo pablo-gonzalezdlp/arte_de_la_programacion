@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <title>Piedra, papel, tijeras, lagarto y spock</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+.w3-myfont {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+</style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+
+    <body class="w3-blue w3-margin w3-myfont" align="center">
+    <h1 align="center" class="w3-myfont"> <b>Piedra, papel, tijeras, lagarto y spock</b></h1>
+
+
+
+          <h3 class="w3-myfont"><br>Jugador: {{tiro_jugador}}</h3>
+          <h3 class="w3-myfont">vs</h3>
+          <h3 class="w3-myfont">Compu: {{tiro_compu}}</h3>
+
+
+
+    <p class="w3-large"><em><br>¡{{mensaje}}!</em></p>
+
+    {% if resultado == 1 %}
+    <img src="/static/feliz.png" width="64" height="64" />
+    <h2 class="w3-myfont">Ganaste, ¡Felicidades!</h2>
+
+
+    {% elif resultado == -1 %}
+    <img src="/static/triste.png" width="64" height="64" />
+    <h2 class="w3-myfont" >Perdiste, ¡eres un loser!</h2>
+
+    {% else %}
+    <img src="/static/neutral.png" width="64" height="64" />
+    <h2 class="w3-myfont">Empate, ¡Estuvo cerca!</h2>
+
+    {% endif %}
+    <br>
+    <a href="/" class="w3-btn w3-yellow w3-myfont w3-round-xxlarge">Volver a jugar</a>
+    </body>
+</html>
