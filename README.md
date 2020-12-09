@@ -2,11 +2,9 @@
 
 30 de octubre de 2020.
 
-Autores:
+Autor:
 
-A01745096  Pablo González
-
-A01746203  Jacques López
+A01745096 - Pablo González
 
 Para correr:
 
