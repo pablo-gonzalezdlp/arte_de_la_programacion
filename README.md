@@ -1,10 +1,13 @@
 # Semana Tec "El arte de la programación"
 
-30 de octubre de 2020.
+Página web responsiva del juego "piedra papel y tijeras"
+
+Lenguaje Python y HTML
 
 Autor:
+Pablo González - (A01745096)
 
-A01745096 - Pablo González
+02 / 12 / 2020
 
 Para correr:
 
