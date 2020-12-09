@@ -7,7 +7,7 @@ Lenguaje Python y HTML
 Autor:
 Pablo González - (A01745096)
 
-02 / 12 / 2020
+30 / 10 / 2020
 
 Para correr:
 
